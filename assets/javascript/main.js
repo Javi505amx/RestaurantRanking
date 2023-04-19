@@ -26,7 +26,7 @@ links.forEach(function (link) {
         content.classList.add("animate__fadeOutUp");
         content.classList.add("animate__animated");
         setTimeout(function () {
-            location.href = "/index.html";
+            location.href = "/";
         }, 600);
 
         return false;
